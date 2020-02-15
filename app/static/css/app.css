@@ -1,3 +1,43 @@
 body {
     padding-top: 5rem;
 }
+
+label{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.form-group{
+    font-weight: bold;
+    color: red; 
+}
+
+.form-control{
+    height: 40px;
+    width: 500px;
+}
+
+#messageTextArea{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+}
+
+.flashmessage{
+    color: white;
+    background: linear-gradient(to bottom right, #7bed9f, #25BC63);
+    font-size: 180%;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.flashmessagearea{
+    height: 50px;
+    border-radius: 50px;
+	box-shadow: 4px 4px 6px rgba(#616161, .4);
+}
